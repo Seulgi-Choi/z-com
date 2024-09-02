@@ -1,5 +1,3 @@
-export default async function HomeLayout({children}) {
-  return (
-    <div>{children}</div>
-  );  
+export default async function HomeLayout({ children }: any) {
+  return <div>{children}</div>;
 }
